@@ -1,0 +1,67 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background: linear-gradient(to right, #1e3a8a, #2563eb);
+    color: white;
+    text-align: center;
+    overflow: hidden; /* Prevent extra scrollbars */
+  }
+  
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: white;
+    color: #2563eb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #1e3a8a;
+    color: white;
+    transform: scale(1.1);
+  }
+
+
+  .hero-socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between icons */
+    margin-top: 20px; /* Space above the social icons */
+  }
+
+  .social-icon {
+    color: #333; /* Default icon color */
+    font-size: 24px; /* Icon size */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+
+  .social-icon:hover {
+    color: #007bff; /* Color on hover */
+  }
+
+  .company-logo {
+    width: 250px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Center the logo with margin */
+    display: block; /* Center the logo horizontally */
+    border-radius: 8px; /* Rounded corners */
+    background: none; /* Ensure no background is applied */
+  }
